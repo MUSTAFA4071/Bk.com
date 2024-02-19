@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #f5ebdc;
+}
+
+:root {
+    --red: #d62300;
+    --brown: #502314;
+    --body: #f5ebdc;
+}
+
+
+
+.red-button {
+    background-color: var(--red);
+}
+
+.brown {
+    background-color: var(--brown);
+}
+
+.color-brown {
+    color: var(--brown);
+}
+.logo-width{
+    width: 50px;
+}
+.mr-10{
+    margin-right: 20px;
+}
+.hero-width{
+    width: 80%;
+}
